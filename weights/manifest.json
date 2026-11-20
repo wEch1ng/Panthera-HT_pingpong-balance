@@ -1,0 +1,22 @@
+{
+  "d405_rgb_balance.pt": {
+    "sha256": "0b04b1134a29532b3e6aee0c7afb9227e808c8049972349dfec574f0a3593934",
+    "source": "outputs/controller/panthera_d405_grip_20261120/reviews/iter_6000.pt",
+    "iteration": 6000
+  },
+  "d405_rgb_estimator.pt": {
+    "sha256": "dfe97a6818ee514e33148565160db7eb48c0e2e89b26329f9418161120ce2af6",
+    "source": "outputs/estimator/d405_v1.pt",
+    "iteration": null
+  },
+  "d405_rgbd_recovery.pt": {
+    "sha256": "b14faf009a90db9bb2ed5be01b181f12ea907a338acc30ca57ee8e2d4cd2d15b",
+    "source": "outputs/controller/panthera_d405_recovery_v1/reviews/iter_1500.pt",
+    "iteration": 1500
+  },
+  "d405_rgbd_recovery_initial.pt": {
+    "sha256": "3d23d7309f1167b51baf46f29ae2f38f8af87a9e56590505b0e013f1b584768c",
+    "source": "outputs/controller/panthera_d405_recovery_v1/initial.pt",
+    "iteration": 0
+  }
+}

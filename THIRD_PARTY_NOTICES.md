@@ -1,0 +1,7 @@
+# Sources and notices
+
+- Training, environment, detector and estimator code originated from https://github.com/zecice/so101-pingpong-balance, MIT, copyright 2026 zecice. Its license is retained at the repository root. This adaptation changes the robot to Panthera-HT and adds D405 perception, recovery training, constraints and evaluation.
+- Follower URDF and its 22 referenced meshes were supplied from Panthera-HT SDK: https://github.com/HighTorque-Robotics/Panthera-HT_SDK. The SDK MIT license is retained as `assets/description/SDK_LICENSE`; supplied `package.xml` is preserved, including its BSD declaration. The supplied URDF has the fixed D405 camera link enabled. Export logs, ROS launch files and generated scenes are omitted.
+- `assets/paddle/paddle.xml` extracts paddle/ball definitions from the upstream project and repackages them for this repository. The upstream asset-scene Apache-2.0 license is retained as `assets/paddle/SCENE_LICENSE`.
+- Paddle meshes came via the upstream project from https://github.com/NeuromorphicControl/table-tennis-control-capstone-project (`src/table_tennis_control/assets/paddle.obj`), split by material. MIT license, copyright 2026 Samuel Galla and Tim Huber, is retained as `assets/paddle/PADDLE_LICENSE.txt`.
+- Published weights were produced by this Panthera simulation adaptation. Original run identifiers and hashes appear in `weights/manifest.json`. Evaluation JSON and historical metadata retain their original experiment-relative paths.

@@ -1,0 +1,134 @@
+{
+  "initial_successes": 7,
+  "final_successes": 19,
+  "episodes": 20,
+  "by_scenario": {
+    "balance": {
+      "initial": 2,
+      "final": 5,
+      "n": 5
+    },
+    "rolling": {
+      "initial": 2,
+      "final": 5,
+      "n": 5
+    },
+    "drop": {
+      "initial": 1,
+      "final": 4,
+      "n": 5
+    },
+    "low_return": {
+      "initial": 2,
+      "final": 5,
+      "n": 5
+    }
+  },
+  "matched_full_20s_pairs": 14,
+  "initial_mean_work_j": 18.894817776819323,
+  "final_mean_work_j": 4.3217780560539545,
+  "work_reduction_percent": 77.12717790083147,
+  "successful_final_mean_abs_height_mm": 1.8132698027553305,
+  "successful_final_mean_center_error_mm": 2.870216600250353,
+  "failures": [
+    {
+      "scenario": "drop",
+      "seed": 20000,
+      "success": false,
+      "duration_s": 1.0,
+      "energy_j": 4.337990083724881,
+      "height_error_m": -0.03718965131094992,
+      "ball_center_error_m": 0.11473273003241269,
+      "lowered_from_start_m": 0.0538066302774069,
+      "airborne_seen": true,
+      "recaught": true,
+      "reached_goal_for_one_second": false,
+      "visible_fraction": 0.6666666666666666,
+      "reason": "ground_contact"
+    }
+  ],
+  "drop_episodes": [
+    {
+      "scenario": "drop",
+      "seed": 20000,
+      "success": false,
+      "duration_s": 1.0,
+      "energy_j": 4.337990083724881,
+      "height_error_m": -0.03718965131094992,
+      "ball_center_error_m": 0.11473273003241269,
+      "lowered_from_start_m": 0.0538066302774069,
+      "airborne_seen": true,
+      "recaught": true,
+      "reached_goal_for_one_second": false,
+      "visible_fraction": 0.6666666666666666,
+      "reason": "ground_contact"
+    },
+    {
+      "scenario": "drop",
+      "seed": 20001,
+      "success": true,
+      "duration_s": 20.0,
+      "energy_j": 4.97368881688691,
+      "height_error_m": 0.001970100670304231,
+      "ball_center_error_m": 0.0038434367660967004,
+      "lowered_from_start_m": 0.014076006066964464,
+      "airborne_seen": false,
+      "recaught": false,
+      "reached_goal_for_one_second": true,
+      "visible_fraction": 0.9783333333333334,
+      "reason": ""
+    },
+    {
+      "scenario": "drop",
+      "seed": 20002,
+      "success": true,
+      "duration_s": 20.0,
+      "energy_j": 5.430546213565522,
+      "height_error_m": 0.002186414844597029,
+      "ball_center_error_m": 0.0035649147320208725,
+      "lowered_from_start_m": 0.005481723023177287,
+      "airborne_seen": true,
+      "recaught": true,
+      "reached_goal_for_one_second": true,
+      "visible_fraction": 0.9783333333333334,
+      "reason": ""
+    },
+    {
+      "scenario": "drop",
+      "seed": 20003,
+      "success": true,
+      "duration_s": 20.0,
+      "energy_j": 3.099467968678927,
+      "height_error_m": 0.001777587788338697,
+      "ball_center_error_m": 0.002013808832888769,
+      "lowered_from_start_m": 0.0013567851760474259,
+      "airborne_seen": true,
+      "recaught": true,
+      "reached_goal_for_one_second": true,
+      "visible_fraction": 0.9716666666666667,
+      "reason": ""
+    },
+    {
+      "scenario": "drop",
+      "seed": 20004,
+      "success": true,
+      "duration_s": 20.0,
+      "energy_j": 4.690352751222303,
+      "height_error_m": 0.0019306496951700947,
+      "ball_center_error_m": 0.002409251098882101,
+      "lowered_from_start_m": 0.016395508981621676,
+      "airborne_seen": true,
+      "recaught": true,
+      "reached_goal_for_one_second": true,
+      "visible_fraction": 0.985,
+      "reason": ""
+    }
+  ],
+  "conditions": {
+    "latency_frames": 2,
+    "difficulty": 1.0,
+    "camera_hfov_degrees": 72.934637,
+    "camera_vfov_degrees": 58,
+    "simulation_only": true
+  }
+}

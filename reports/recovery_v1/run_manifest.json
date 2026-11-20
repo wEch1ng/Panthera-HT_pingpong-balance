@@ -1,0 +1,22 @@
+{
+  "task": "D405 RGB-D descending catch, recenter, height return with mechanical power penalty",
+  "target_height_m": 0.527232155,
+  "target_uv_m": [
+    0,
+    0
+  ],
+  "energy_weight_per_watt": 0.02,
+  "initial_policy": "outputs/controller/panthera_d405_grip_20261120/reviews/iter_6000.pt",
+  "scene_sha256": "2b111dace77f88ce7643db1d70a3562134f5de011d3bcbe8ab97fe744fd4dd0d",
+  "source_hashes": {
+    "sim/env.py": "5935ea4f5c3573524f62d8727745cd031c691100f8ec92b8634b0fc4a03c9b19",
+    "sim/recovery_env.py": "4ef702115946811b30314cf59f9af489bd74d643325afcd694ef305490c58a64",
+    "sim/train_controller.py": "f66becd2ee0659d28e9df2a227a4423a811f91afe7c1ca44f47c9b260cab189a",
+    "sim/vec_env.py": "cdc0a29169403dcfd98abf22f966f5458ff70adf2039e57b3819d6f9f11fb127",
+    "sim/policies.py": "6a431c894befc19153b9240fcec1f4d9c1b31bbcd29dede396708e497a344808",
+    "sim/ppo.py": "90930f7c4147b7317954eb1d4514f76936805d0d826fe1274fe00d9f86b45e20",
+    "sim/eval_recovery.py": "3f1d1197c5da6e03d556fbb3819736725e03c584fe87239bcdbc40303d940803",
+    "perception/rgbd_ball.py": "e40437ac2c4b3e39139e2a173493d9b62b04aff707aad2beaa4a896792c3836c",
+    "sim/run_recovery_v1.sh": "0dd6fe9f1170dd40d75e16815457098c91e0e78ca6949533acae576e5c6cb5da"
+  }
+}

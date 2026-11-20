@@ -1,0 +1,25 @@
+[project]
+name = "panthera-pingpong-balance"
+version = "0.1.0"
+description = "Panthera-HT six-joint ball-on-paddle MuJoCo simulation and PPO training"
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "zecice" }]
+requires-python = ">=3.12"
+dependencies = [
+    "trimesh>=4.0",
+    "pillow>=10",
+    "gymnasium>=1.4.0",
+    "mujoco==3.17.0",  # trained and validated on 3.17; 4.x changes the physics slightly
+    "numpy>=2.0",
+    "opencv-python-headless>=4.10",
+    "psutil>=5.9",
+    "torch>=2.5",
+]
+
+[project.optional-dependencies]
+plots = ["matplotlib>=3.8"]
+wandb = ["wandb>=0.20"]
+
+[project.urls]
+Repository = "https://github.com/wEch1ng/Panthera-HT_pingpong-balance"
